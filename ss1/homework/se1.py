@@ -2,9 +2,9 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route('/BMI/<int:height>/<int:mass>')
-def index(height,mass):
-    BMI = mass /(height*height / 10000)
+@app.route('/matherfucker/<int:height>/<int:mass>')
+def matherfucker(height, mass):
+    BMI = round(mass / ((height**2)/10000))
 
     if BMI < 16 :
         st = "Severely underweight"
@@ -17,7 +17,7 @@ def index(height,mass):
     else:
         st = "Obese"
 
-    return (str(BMI) + st)
+    return render_template('bmi.html', st = st, BMI = BMI, height = height, mass = mass )
 
 if __name__ == '__main__':
   app.run(debug=True)
