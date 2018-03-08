@@ -1,0 +1,1 @@
+m?i record có 1 id riêng bi?t vì n?u xu?t hi?n nh?ng record có id gi?ng nhau thì giá tr? trong m?i record ?y ph?i gi?ng nhau

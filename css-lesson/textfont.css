@@ -1,0 +1,20 @@
+.text-upper {
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+}
+
+.text-red {
+  color: red;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-size-18 {
+  font-size: 20px;
+}
+
+.text-italic {
+  font-style: italic;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>mua dong khong lanh</title>
+  </head>
+  <body>
+    {% for service in all_services %}
+      {% if service.gender == 1 %}
+        <img src="../static/image/male-profile.jpg">
+      {% else %}
+        <img src="../static/image/female-profile.jpg">
+      {% endif %}
+    <p>{{service.name}}</p>
+    <p>{{service.yob}}</p>
+    <p>{{service.gender}}</p>
+    <p>{{service.height}}</p>
+    <p>{{service.address}}</p>
+    {% endfor %}
+
+    </address>}}</p>
+  </body>
+</html>

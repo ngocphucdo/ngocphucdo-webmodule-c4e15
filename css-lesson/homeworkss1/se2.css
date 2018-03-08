@@ -1,0 +1,20 @@
+.text-red {
+  color: red;
+}
+.display {
+  display: inline-block;
+  box-sizing: content-box;
+  width: 420px;
+  padding: 0px ;
+  margin: 0px 0px;
+  float: left;
+}
+.font-text {
+  font-family: 'Cabin', sans-serif;
+}
+.font-size {
+  font-size: 15px;
+}
+.font-style {
+  font-weight: normal;
+}

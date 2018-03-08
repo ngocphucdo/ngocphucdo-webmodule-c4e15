@@ -1,0 +1,38 @@
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+
+}
+.display1 {
+  width: 1000px;
+  height: 1000px;
+  padding: 50px;
+  border: 2px solid rgb(159, 8, 144) ;
+}
+.display2{
+  width: 1000px;
+  height: 1000px;
+  border: 2px solid rgb(159, 8, 144);
+}
+.bg-color {
+  background: rgb(89, 43, 194);
+}
+.background {
+  background-image: url(https://file.tinnhac.com/resize/600x-/music/2017/01/18/Anh13-8b1a.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.h-700px {
+  height: 700px;
+}
