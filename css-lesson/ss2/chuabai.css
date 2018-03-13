@@ -1,0 +1,49 @@
+.bg-lightgreen {
+  background: lightgreen;
+}
+#navigation ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+li:hover {
+  color: blue;
+  cursor: pointer;
+}
+#go-pro:hover {
+  background: #4dadf7;
+  color: white;
+}
+
+.text-blue {
+  color: #4dadf7;
+}
+.mt-0px{
+  margin-top: 0px;
+}
+.mx-10px {
+  margin: 0px 10px;
+}
+
+.font-size-1-5em {
+  font-size: 1.5em;
+}
+#navigation {
+  line-height: 80px;
+  height: 80px;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.h-100{
+  height: 100%;
+}
+#go-pro {
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}

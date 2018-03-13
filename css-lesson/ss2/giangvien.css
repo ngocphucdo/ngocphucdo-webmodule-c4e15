@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+.bg-green{
+  background: green;
+}
+
+ul {
+  padding: 200px 100px;
+}
+.padding {
+  padding: 200px 100px;
+  margin: 15px;
+}
+.background {
+  background-image: url(https://file.tinnhac.com/resize/600x-/music/2017/01/18/Anh13-8b1a.png);
+  background-size: cover;
+  background-attachment: fixed;
+}

@@ -1,0 +1,64 @@
+.d-flex {
+  display: flex;
+  padding: 10px;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.background{
+  background-image: url(https://static.videezy.com/system/resources/thumbnails/000/004/949/original/snow-branch-4k-living-background.jpg);
+  background-size: cover;
+
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: : 20px;
+  font-size: 350%;
+}
+h2 {
+  text-align: center;
+  color: white;
+  width: 200px;
+  font-weight: bold;
+}
+
+#hr{
+  margin-top: 230px;
+}
+
+.bg-green {
+  background: green;
+}
+.w-300px{
+  width: 200px;
+}
+
+.h-300px{
+  height: 200px;
+}
+.h-500px{
+  height: 500px;
+}
+.mx-10px{
+  margin: 0 10px;
+}
+.image1 {
+  background-image: url(https://lh5.googleusercontent.com/-qzHrvzh9rzg/WT-oW39b5aI/AAAAAAAAGG4/3rqzEVpEhqABf6BxbwrgGXx3W3XCno1_wCLcB/s200-c/OhGai.net-00130617.jpg);
+  border-radius: 50%;
+}
+.image2 {
+  background-image: url(http://a9.vietbao.vn/images/vi955/2014/6/55638900-1402906575-diep-lam-anh-av.jpg);
+  border-radius: 50%;
+}
+.image3 {
+  background-image: url(http://anh.24h.com.vn/upload/4-2012/images/2012-12-23/1356251893_phuong-trinh-.jpg);
+  border-radius: 50%;
+}
+.image4 {
+  background-image: url(http://khampha.vn/upload/1-2013/images/2013-02-03/1359863744_x.jpg);
+  border-radius: 50%;
+}
